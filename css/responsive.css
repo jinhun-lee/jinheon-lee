@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+@media screen and (max-width: 1200px){
+    .pc-menu{
+        display: none;
+    }
+    .mobile-btn{
+        display: block;
+    }
+}
+
+
+
+@media screen and (max-width: 900px){
+    .pc-menu{
+        display: none;
+    }
+    .mobile-btn{
+        display: block;
+    }
+    .about-text,.hongbo-text,.motion-text,.live-text{
+        text-align: center;
+        right: 0;
+        left: 0;
+        margin: 0 20%;
+    }
+    .text-content{
+        margin-top: 30px;
+    
+    }
+
+
+
+}
